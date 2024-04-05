@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog App</title>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col">
+            <h1>Новый пост</h1>
+            <input class="js-post-title-input post-title-input" type="text" placeholder="Заголовок">
+
+            <input class="js-post-text-input post-text-input" type="text" placeholder="Текст">
+
+            <button class="js-new-post-btn new-post-btn">Опубликовать</button>
+        </div>
+
+        <div class="col">
+            <h2>Лента</h2>
+            <div class="js-posts">
+                Лента пуста...
+            </div>
+        </div>
+    </div>
+    <div class="validationMessage validationMessage_hidden"></div>
+   
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

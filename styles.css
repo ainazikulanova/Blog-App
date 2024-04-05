@@ -1,0 +1,54 @@
+.post-title-input{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.post-text-input{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px
+}
+.new-post-btn{
+    box-sizing: border-box;
+    background-color: rgb(40, 123, 206);
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.col{
+    width: 400px;
+}
+
+.post__title{
+    font-weight: 600;
+}
+
+.row{
+    display: flex;
+    gap: 50px;
+}
+
+.validationMessage{
+    margin-top: 20px;
+    color: red;
+}
+
+.validationMessage_hidden{
+    display: none;
+    box-sizing: border-box;
+    display: block;
+}
+
+.post__date{
+    color: blue;
+}
